@@ -75,7 +75,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: HotestNewsCard(
                     size: size,
                     newsTitle: "Lebaran Sebentar Lagi",
-                    pictureUrl: "https://picsum.photos/1080/690",
+                    pictureUrl:
+                        "https://images.pexels.com/photos/2989625/pexels-photo-2989625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                   ),
                 ),
                 const SizedBox(

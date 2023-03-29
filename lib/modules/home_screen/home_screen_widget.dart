@@ -200,7 +200,7 @@ class LatestNewsCard extends StatelessWidget {
                     child: AspectRatio(
                       aspectRatio: 1 / 1,
                       child: Image.network(
-                        "https://picsum.photos/200",
+                        "https://images.pexels.com/photos/3163677/pexels-photo-3163677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                       ),
                     ),
                   ),
@@ -209,7 +209,7 @@ class LatestNewsCard extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      "${i + 1}. Laboris fugiat eiusmod consequat aliqua eiusmod.",
+                      "${i + 1}. Lebaran sebentar lagi, minal aidzin wal fa idzin.",
                     ),
                   ),
                 ),

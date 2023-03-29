@@ -22,15 +22,7 @@ class AppRoutes {
     if (state.extra != null && state.extra is User) {
       user = state.extra! as User;
     } else {
-      user = User(
-        id: 002,
-        name: "Permata",
-        username: "permata",
-        email: "permata@email.com",
-        profilePhoto:
-            "https://i.pinimg.com/originals/06/87/a8/0687a8ac12eee878f87ddfa8f0cc66d8.jpg",
-        phoneNumber: "085111123456",
-      );
+      user = User.dummy();
     }
     return MaterialPage(
       child: HomeScreen(
